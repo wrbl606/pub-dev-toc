@@ -20,7 +20,7 @@
     "512": "./icons/icon-512.png"
   },
   "incognito": "spanning",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "browser_specific_settings": {
     "gecko": {
       "id": "pub-dev-toc@wrbl.xyz"

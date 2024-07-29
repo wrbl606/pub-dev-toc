@@ -14,7 +14,7 @@ const headersSelector = ".hash-header"
 const jumpToValue = "__jump-to"
 
 func toHref(label: cstring): cstring =
-  let labelString = fmt"{label}".replace(".", "")
+  let labelString = fmt"{label}".replace(".", "").replace(",", "").replace("?", "")
   let slug = labelString.toLower.replace(" ", "-")[0..labelString.len - 2]
   return fmt"#{slug}"
 
