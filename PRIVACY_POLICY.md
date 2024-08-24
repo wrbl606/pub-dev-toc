@@ -1,0 +1,1 @@
+pub.dev's Table of Contents does not collect any user data aa it works completely offline.
